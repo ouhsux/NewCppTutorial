@@ -23,8 +23,7 @@ public:
 	void EnableMovement(bool ShouldMove);
 	UFUNCTION(BlueprintCallable)
 	void ResetMovement();
-	UFUNCTION(BlueprintCallable)
-	void SetMoveDirection(int Direction);
+
 
 protected:
 	// Called when the game starts
