@@ -52,15 +52,6 @@ void UMoveComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
-	//if (MoveEnable)
-	//{
-	//	
-	//}
-	//CurDis += speed * DeltaTime * MoveDirection;
-	//if (CurDis >= MaxDis || CurDis <= 0.0f)
-	//	MoveDirection *= -1;
-
 	if (MoveEnable)
 	{
 		CurDis += DeltaTime * speed * MoveDirection;
