@@ -28,7 +28,7 @@ void UMoveComponent::ResetMovement()
 
 void UMoveComponent::SetMoveDirection(int Direction)
 {
-	MoveDirection *= Direction >= 1 ? 1 : -1;
+	MoveDirection = Direction >= 1 ? 1 : -1;
 }
 
 // Called when the game starts
