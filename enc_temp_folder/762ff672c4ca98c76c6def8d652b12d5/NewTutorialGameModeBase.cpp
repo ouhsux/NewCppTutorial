@@ -13,7 +13,7 @@ void ANewTutorialGameModeBase::InitGameState()
     //    DefaultPawnClass = CustomXPCharacterClass;
     //} 
     Super::InitGameState();
-    if (DefaultPawnClass == ADefaultPawn::StaticClass() || !DefaultPawnClass )
+    if (DefaultPawnClass == ADefaultPawn::StaticClass() )
     {
         // Update to custom implementation
         DefaultPawnClass = CustomXPPawnClass;
